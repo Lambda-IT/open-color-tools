@@ -1,20 +1,15 @@
 {
-  "compilerOptions": {
-    "module": "commonjs",
-    "target": "es5",
-    "outDir": "lib/",
-    "removeComments": false,
-    "preserveConstEnums": true,
-    // "sourceMap": true,
-    "declaration": true,
-    "noImplicitAny": true,
-    "suppressImplicitAnyIndexErrors": true
-  },
-  "formatCodeOptions": {
-    "indentSize": 2,
-    "tabSize": 2
-  },
-  "files": [
-    "src/index.ts"
-  ]
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "outDir": "lib/",
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "declaration": true,
+        "noImplicitAny": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "files": [
+        "src/index.ts"
+    ]
 }
